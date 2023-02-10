@@ -1,4 +1,6 @@
 #Hashbang / Shebang
+
+
 #!/bin/bash
 
 
@@ -32,3 +34,5 @@ cat assignments/cities.txt | sed 's/e/EE/g' > assignments/ch_cities.txt
 echo 'Replaced e with EE and written to new file ch_cities.txt'
 
 cat assignments/ch_cities.txt
+
+echo "all done"
