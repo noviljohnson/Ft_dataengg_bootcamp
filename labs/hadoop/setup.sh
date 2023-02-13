@@ -1,15 +1,5 @@
 #!/bin/bash
 
-#function
-funtion1()
-{
-    echo 'Hello'
-    echo $0
-    echo $1
-}
-
-funtion1 "arg1"
-
 ###########Hadoop 3.x installation
 # (https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/SingleCluster.html)
 
@@ -28,7 +18,7 @@ sudo apt-get install ssh
 sudo apt-get install pdsh
 
 #Download Hadoop
-cd ~/Downloads
+# cd ~/Downloads
 #Hadoop version may need to be changed
 curl https://downloads.apache.org/hadoop/common/stable/hadoop-3.3.4.tar.gz -o hadoop-3.3.4.tar.gz
 #Extract Hadoop
@@ -57,7 +47,8 @@ export HADOOP_OPTS="$HADOOP_OPTS -Djava.library.path=$HADOOP_HOME/lib/native"
 export HADOOP_INSTALL=$HADOOP_HOME
 export PATH=$PATH:$HADOOP_HOME/sbin:$HADOOP_HOME/bin 
 ##############################################
-source ~/.bashrc			=> reloads the changes
+# => reloads the changes
+source ~/.bashrc
 
 #Standalone mode [Execute below commands w/o making any config changes - OPTIONAL TO TEST STANDALONE MODE]
 cd $HADOOP_HOME
@@ -88,13 +79,15 @@ sudo nano etc/hadoop/hdfs-site.xml
 ####################################
 
 #Configure password less SSH
-ssh localhost			=> (will prompt password)
+# => (will prompt password)
+ssh localhost
 
 ssh-keygen -t rsa -P '' -f ~/.ssh/id_rsa
 cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
 chmod 0600 ~/.ssh/authorized_keys
 
-ssh localhost			=> (login w/o password)
+#=> (login w/o password)
+ssh localhost
 
 #Format Namenode
 hdfs namenode -format
@@ -106,10 +99,11 @@ source ~/.bashrc
 
 #Start Namenode
 #sbin/start-dfs.sh
-start-dfs.sh		=> (Web URL: http://localhost:9870/)
+#=> (Web URL: http://localhost:9870/)
+start-dfs.sh
 
 #pdsh - rcmd socket permission denied error fix
-(https://stackoverflow.com/questions/42756555/permission-denied-error-while-running-start-dfs-sh)
+# (https://stackoverflow.com/questions/42756555/permission-denied-error-while-running-start-dfs-sh)
 
 #Create HDFS directories
 hdfs dfs -mkdir /user
@@ -178,10 +172,12 @@ sudo nano etc/hadoop/yarn-site.xml
 ############################
 
 #Start Namenode
-start-dfs.sh		=> (Web URL: http://localhost:9870/)
+#=> (Web URL: http://localhost:9870/)
+start-dfs.sh
 
 #Start ResourceManager and NodeManager
-start-yarn.sh			=> (Web URL: http://localhost:8088/)
+#=> (Web URL: http://localhost:8088/)
+start-yarn.sh
 
 #Run MR Job
 hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-3.3.4.jar grep /user/training/input /user/training/output 'dfs[a-z.]+'
