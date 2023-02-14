@@ -18,7 +18,7 @@ sudo apt-get install ssh
 sudo apt-get install pdsh
 
 #Download Hadoop
-# cd ~/Downloads
+cd ~/Downloads
 #Hadoop version may need to be changed
 curl https://downloads.apache.org/hadoop/common/stable/hadoop-3.3.4.tar.gz -o hadoop-3.3.4.tar.gz
 #Extract Hadoop
@@ -31,7 +31,7 @@ sudo mv hadoop-3.3.4 /opt/hadoop
 cd /opt/hadoop
 sudo nano etc/hadoop/hadoop-env.sh
 #set to the root of your Java installation
-export JAVA_HOME=/opt/java
+export JAVA_HOME=/opt/java #/usr/lib/jvm/java-11-openjdk-amd64
 
 #HADOOP_HOME configuration
 sudo nano ~/.bashrc

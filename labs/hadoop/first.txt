@@ -1,0 +1,2 @@
+Hi I am Novil
+This is my first text file in hadoop
