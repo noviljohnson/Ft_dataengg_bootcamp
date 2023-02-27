@@ -16,7 +16,14 @@ mim_temp = lines.flatMap(lambda x: [x.split()[6]]) \
             .reduceByKey(lambda a, b:min(a,b))
 output = mim_temp.collect()
 
+month_temp = lines.flatMap(lambda x: [x.split()[1],x.split()[5]]) # \
+
+            # .map(lambda x: (x[0],float(x[1]))) \
+            # .reduceByKey(lambda a,b: min(a,b))
+
+month_temp_out = month_temp.collect()
+
 print(output1[0][0], output1[0][1])
 print(output[0][0], output[0][1])
-# for (word, count) in output:
-#     print(word,count)
+for (word, count) in month_temp_out:
+    print(word,count)

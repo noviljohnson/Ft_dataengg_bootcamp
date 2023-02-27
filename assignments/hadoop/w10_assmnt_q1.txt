@@ -1,0 +1,15 @@
+# 1
+# Write a hdfs command to list all the directories in a give directory
+# that contain files are larger than 1 gb
+
+hdfs dfs -du -h -s/* | awk '{ if ($1 > 1) print $2}'
+
+
+
+
+ # 2 Q
+ # hdfs command to remove all empty directories in a given directory and 
+ # is subdirectories
+ 
+ hadoop fs -rm -rd /user/training/
+

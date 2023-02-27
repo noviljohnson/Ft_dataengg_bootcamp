@@ -1,0 +1,55 @@
+hadoop pyspark shell bigdata
+bigdata shell pyspark unix
+linux mangodb dbms hadoop
+hadoop hadoop sql sql
+hadoop pyspark pyspark
+hadoop pyspark shell bigdata
+bigdata shell pyspark unix
+linux mangodb dbms hadoop
+hadoop hadoop sql sql
+hadoop pyspark pyspark
+dynamodb spark pyspark sql
+hive hive hadoop hadoop
+hadoop hadoop sql sql
+hadoop pyspark pyspark
+dynamodb spark pyspark sql
+hive hive hadoop hadoop
+hadoop pyspark shell bigdata
+bigdata shell pyspark unix
+linux mangodb dbms hadoop
+hadoop hadoop sql sql
+hadoop pyspark pyspark
+hadoop pyspark shell bigdata
+bigdata shell pyspark unix
+linux mangodb dbms hadoop
+hadoop hadoop sql sql
+hadoop pyspark pyspark
+dynamodb spark pyspark sql
+hive hive hadoop hadoop
+hadoop hadoop sql sql
+hadoop pyspark pyspark
+dynamodb spark pyspark sql
+hive hive hadoop hadoop
+movies python output output
+Streaming final output from
+No configs specified for
+movies python output output
+Streaming final output from
+No configs specified for
+hive hive hadoop hadoop
+dynamodb spark pyspark sql
+dynamodb spark pyspark sql
+hive hive hadoop hadoop
+movies python output output
+Streaming final output from
+No configs specified for
+movies python output output
+Streaming final output from
+No configs specified for
+dynamodb spark pyspark sql
+dynamodb spark pyspark sql
+movies python output output
+Streaming final output from
+No configs specified for
+dynamodb spark pyspark sql
+dynamodb spark pyspark sql
