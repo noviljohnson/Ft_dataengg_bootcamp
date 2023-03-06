@@ -1,11 +1,11 @@
 
-import pandas as pd
-import pyspark 
+# import pandas as pd
+# import pyspark 
 from datetime import datetime
 
 from pyspark.sql.functions import *
 from pyspark.sql import SparkSession
-from pyspark import SparkContext
+# from pyspark import SparkContext
 
 # spark = SparkSession.builder.appName('Data_clean').getOrCreate()
 spark = SparkSession.builder.master("local").appName('bankdataClean').getOrCreate()
