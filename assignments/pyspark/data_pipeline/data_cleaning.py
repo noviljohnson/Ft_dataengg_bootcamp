@@ -14,11 +14,11 @@ df_bnk = spark.read.parquet('/mnt/c/Users/miles.MILE-BL-4766-LA.000/Documents/FT
 
 with open('log.txt','w+') as file:
     file.write(datetime.now().strftime("%d-%m-%Y   %H:%M:%S"))
-    file.write('Bank Market schema\n')
-    file.write(str(df_bnk.columns)+'\n')
+    file.write('\n Bank Market schema\n')
+    file.write("\n"+str(df_bnk.columns)+'\n')
 
 
-    file.write('Nulls in each column')
+    file.write('\n Nulls in each column \n ')
     for i in df_bnk.columns:
         file.write(str(i)+" : "+str(df_bnk.where(isnull(col(i))).count())+'\n')
 df_age_nonNull = df_bnk.where(df_bnk.age.isNotNull())

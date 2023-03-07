@@ -1,0 +1,12 @@
+
+ File paths 
+/mnt/c/Users/miles.MILE-BL-4766-LA.000/Documents/FT/Ft_Bigdata/Ft_dataengg_bootcamp/labs/datasets/bankmarketdata.csv
+/mnt/c/Users/miles.MILE-BL-4766-LA.000/Documents/FT/Ft_Bigdata/Ft_dataengg_bootcamp/assignments/pyspark/data_pipeline
+07-03-2023   10:50:04
+ Spark Session 
+
+ <pyspark.sql.session.SparkSession object at 0x7f1f91e0db70>
+
+ Data read from bankmarket csv 
+
+ Data stored as parquet format 
