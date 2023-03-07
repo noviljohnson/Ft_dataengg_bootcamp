@@ -79,7 +79,9 @@ print(age_cat_count)
 
 # 	h) Check if marital status mattered for subscription to deposit.
 
-# rows_rdd.map(lambda x: (x.split(";")[2].strip('"'),x.split(';')[5])).take(3)
+marital_status_wise_count = rows_rdd.filter(lambda x: 'yes' in x.split(';')[-1]).map(lambda x: (x.split(";")[2].strip('"'),1)).reduceByKey(lambda x,y: x+y).collect()
+for i,val in marital_status_wise_count:
+    print(i,val)
 
 
 # 	i) Check if age and marital status together mattered for subscription to deposit scheme
