@@ -26,10 +26,10 @@ min_month = min_month.collect()
 print(output1[0][0], output1[0][1])
 print(output[0][0], output[0][1])
 
-print("month wise Maximum")
+print("month wise Minimum")
 for (word, count) in min_month:
     print(word,count)
 
-print("month wise Minimum")
+print("month wise Maximun")
 for (word, count) in max_month:
     print(word,count)
