@@ -1,3 +1,8 @@
+# Assignment #1
+# 	Weather Data Analysis with RDD API
+# 	a) Load Weather Dataset and create RDD
+# 	b) Show Min and Max Temperature
+# 	c) Show month wise Min and Max Temperature
 
 
 from pyspark import SparkContext 

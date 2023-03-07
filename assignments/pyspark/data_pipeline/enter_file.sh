@@ -26,7 +26,7 @@ then
     then 
         # sudo service 
         echo "executing  data_transform.py"
-
+        service mysql start
         spark-submit --jars /mnt/c/Users/miles.MILE-BL-4766-LA.000/Downloads/mysql-connector-j-8.0.32/mysql-connector-j-8.0.32.jar  "$local_path/data_transform.py" >> "$local_path/outputlogs.txt" 2>> "$local_path/error_log.txt" 
 
         if [ $? -eq 0 ]
