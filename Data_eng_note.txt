@@ -1,0 +1,92 @@
+09-03-2023
+
+- 
+
+- PySpark
+ - rdd - batch processing/analysis - limited performance
+ - dataframe - interactive processing/analysis - faster than rdd
+ - rdd/datafram - streaming analysis
+ - datasets  - faster than df
+
+- formats 
+ - structured   - most recieved (for now)
+ - semi structured - expected in the future
+ - unstructured - 
+     ex: web logs
+     : how to analyse the log data - unstructured 
+
+- what analysis we can do with Hadoop
+    - processing in the disk only
+    - batch processing/analysis - (Offline Analysis)
+        - Hive
+        - MapReduce
+        - pig 
+    - online processing/analysis
+        - Hbase  - (NoSql DB) - Not Only Sql
+            - bigdata database for Nosql
+        - avoids scanning whole table 
+- Hadoop 
+    - Yarn - resource manager 
+        - url - localhost:8088
+        - job history/job status
+    - Indipendent componant - HBASE 
+        - directly communicates with HDFS
+    - map 
+        - splitting data
+        - map input - (key,value) -> (long int, string)
+        - map output- (key,value) -> (long int, string)
+    - reduce 
+        - aggrigating - minimizing
+        - input - (key,value) -> (long int, string)
+        - output- (key,value) -> (long int, string)
+        - stored in HDFS
+
+- Spark/pyspark
+    - any type of analysis
+    - expensive solution - In memory processing
+
+- Sqoop 
+    - default 4 map tasks
+    - No Reduce Tasks
+    - customizing the map tasks to 1 is best practice 
+        - as it puts all files in single dir 
+    
+
+- Airflow
+    - Scheduling componant/Tool
+    - job Scheduling
+
+
+
+
+Bigdata Project Terminology: end to end implementation
+- mostly for analysis
+
+1. Sources
+    - Static Sources
+        - Mysql databases
+    - Dynamic Sources
+        - live servers : linkedin,twitter,Fb 
+        - api's 
+2. Data Ingestion(ETL)
+    - second layer
+    - once file system is ready
+    - tools 
+        - Sqoop, infermatica, data Stage -> for Static data Sources
+        - Fluem, Kafka -> Dynamic data Sources
+        - Aws Glue, Kinesis
+    - target : hive, Hbase, hdfs
+3. Data Analysis
+    - what type of analysis
+    - batch, online data processing
+    - analysis tools 
+        - hive, pig, MRp, Hbase
+        - Spark Sql, Core, streaming
+4. Export data to client DB
+5. BI (Reports)
+
+
+- Platforms
+    - CloudEra
+    - HortonWorks
+    - Aws EMR & Databricks
