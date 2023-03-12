@@ -1,0 +1,110 @@
+Ivy Default Cache set to: /home/noviljohnson/.ivy2/cache
+The jars for the packages stored in: /home/noviljohnson/.ivy2/jars
+org.apache.spark#spark-avro_2.12 added as a dependency
+:: resolving dependencies :: org.apache.spark#spark-submit-parent-2a4396fb-224e-41e7-8a8c-793f35f2eb52;1.0
+	confs: [default]
+	found org.apache.spark#spark-avro_2.12;3.3.2 in central
+	found org.tukaani#xz;1.9 in central
+	found org.spark-project.spark#unused;1.0.0 in central
+:: resolution report :: resolve 324ms :: artifacts dl 11ms
+	:: modules in use:
+	org.apache.spark#spark-avro_2.12;3.3.2 from central in [default]
+	org.spark-project.spark#unused;1.0.0 from central in [default]
+	org.tukaani#xz;1.9 from central in [default]
+	---------------------------------------------------------------------
+	|                  |            modules            ||   artifacts   |
+	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+	---------------------------------------------------------------------
+	|      default     |   3   |   0   |   0   |   0   ||   3   |   0   |
+	---------------------------------------------------------------------
+:: retrieving :: org.apache.spark#spark-submit-parent-2a4396fb-224e-41e7-8a8c-793f35f2eb52
+	confs: [default]
+	0 artifacts copied, 3 already retrieved (0kB/8ms)
+Ivy Default Cache set to: /home/noviljohnson/.ivy2/cache
+The jars for the packages stored in: /home/noviljohnson/.ivy2/jars
+org.apache.spark#spark-avro_2.12 added as a dependency
+:: resolving dependencies :: org.apache.spark#spark-submit-parent-4b099fda-23b0-430c-8c8c-a2b00770456a;1.0
+	confs: [default]
+	found org.apache.spark#spark-avro_2.12;3.3.2 in central
+	found org.tukaani#xz;1.9 in central
+	found org.spark-project.spark#unused;1.0.0 in central
+:: resolution report :: resolve 214ms :: artifacts dl 8ms
+	:: modules in use:
+	org.apache.spark#spark-avro_2.12;3.3.2 from central in [default]
+	org.spark-project.spark#unused;1.0.0 from central in [default]
+	org.tukaani#xz;1.9 from central in [default]
+	---------------------------------------------------------------------
+	|                  |            modules            ||   artifacts   |
+	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+	---------------------------------------------------------------------
+	|      default     |   3   |   0   |   0   |   0   ||   3   |   0   |
+	---------------------------------------------------------------------
+:: retrieving :: org.apache.spark#spark-submit-parent-4b099fda-23b0-430c-8c8c-a2b00770456a
+	confs: [default]
+	0 artifacts copied, 3 already retrieved (0kB/5ms)
+Ivy Default Cache set to: /home/noviljohnson/.ivy2/cache
+The jars for the packages stored in: /home/noviljohnson/.ivy2/jars
+org.apache.spark#spark-avro_2.12 added as a dependency
+:: resolving dependencies :: org.apache.spark#spark-submit-parent-491044ed-27a8-4dfc-bdc1-4cc69d7b2e06;1.0
+	confs: [default]
+	found org.apache.spark#spark-avro_2.12;3.3.2 in central
+	found org.tukaani#xz;1.9 in central
+	found org.spark-project.spark#unused;1.0.0 in central
+:: resolution report :: resolve 217ms :: artifacts dl 7ms
+	:: modules in use:
+	org.apache.spark#spark-avro_2.12;3.3.2 from central in [default]
+	org.spark-project.spark#unused;1.0.0 from central in [default]
+	org.tukaani#xz;1.9 from central in [default]
+	---------------------------------------------------------------------
+	|                  |            modules            ||   artifacts   |
+	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+	---------------------------------------------------------------------
+	|      default     |   3   |   0   |   0   |   0   ||   3   |   0   |
+	---------------------------------------------------------------------
+:: retrieving :: org.apache.spark#spark-submit-parent-491044ed-27a8-4dfc-bdc1-4cc69d7b2e06
+	confs: [default]
+	0 artifacts copied, 3 already retrieved (0kB/5ms)
+Ivy Default Cache set to: /home/noviljohnson/.ivy2/cache
+The jars for the packages stored in: /home/noviljohnson/.ivy2/jars
+org.apache.spark#spark-avro_2.12 added as a dependency
+:: resolving dependencies :: org.apache.spark#spark-submit-parent-e9b30af5-29d9-48d6-a3a9-1d2ac1beee6f;1.0
+	confs: [default]
+	found org.apache.spark#spark-avro_2.12;3.3.2 in central
+	found org.tukaani#xz;1.9 in central
+	found org.spark-project.spark#unused;1.0.0 in central
+:: resolution report :: resolve 208ms :: artifacts dl 8ms
+	:: modules in use:
+	org.apache.spark#spark-avro_2.12;3.3.2 from central in [default]
+	org.spark-project.spark#unused;1.0.0 from central in [default]
+	org.tukaani#xz;1.9 from central in [default]
+	---------------------------------------------------------------------
+	|                  |            modules            ||   artifacts   |
+	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+	---------------------------------------------------------------------
+	|      default     |   3   |   0   |   0   |   0   ||   3   |   0   |
+	---------------------------------------------------------------------
+:: retrieving :: org.apache.spark#spark-submit-parent-e9b30af5-29d9-48d6-a3a9-1d2ac1beee6f
+	confs: [default]
+	0 artifacts copied, 3 already retrieved (0kB/5ms)
+Ivy Default Cache set to: /home/noviljohnson/.ivy2/cache
+The jars for the packages stored in: /home/noviljohnson/.ivy2/jars
+org.apache.spark#spark-avro_2.12 added as a dependency
+:: resolving dependencies :: org.apache.spark#spark-submit-parent-67a8d611-f890-4a4e-acdf-e1359f2a2b6f;1.0
+	confs: [default]
+	found org.apache.spark#spark-avro_2.12;3.3.2 in central
+	found org.tukaani#xz;1.9 in central
+	found org.spark-project.spark#unused;1.0.0 in central
+:: resolution report :: resolve 222ms :: artifacts dl 8ms
+	:: modules in use:
+	org.apache.spark#spark-avro_2.12;3.3.2 from central in [default]
+	org.spark-project.spark#unused;1.0.0 from central in [default]
+	org.tukaani#xz;1.9 from central in [default]
+	---------------------------------------------------------------------
+	|                  |            modules            ||   artifacts   |
+	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+	---------------------------------------------------------------------
+	|      default     |   3   |   0   |   0   |   0   ||   3   |   0   |
+	---------------------------------------------------------------------
+:: retrieving :: org.apache.spark#spark-submit-parent-67a8d611-f890-4a4e-acdf-e1359f2a2b6f
+	confs: [default]
+	0 artifacts copied, 3 already retrieved (0kB/6ms)
