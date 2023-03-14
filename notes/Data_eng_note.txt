@@ -5,7 +5,7 @@
 - PySpark
  - rdd - batch processing/analysis - limited performance
  - dataframe - interactive processing/analysis - faster than rdd
- - rdd/datafram - streaming analysis
+ - rdd/datafram - streaming analysis - pyspark with Kafka
  - datasets  - faster than df
 
 - formats 
@@ -62,31 +62,52 @@
 Bigdata Project Terminology: end to end implementation
 - mostly for analysis
 
-1. Sources
-    - Static Sources
-        - Mysql databases
-    - Dynamic Sources
-        - live servers : linkedin,twitter,Fb 
-        - api's 
-2. Data Ingestion(ETL)
-    - second layer
-    - once file system is ready
-    - tools 
-        - Sqoop, infermatica, data Stage -> for Static data Sources
-        - Fluem, Kafka -> Dynamic data Sources
-        - Aws Glue, Kinesis
-    - target : hive, Hbase, hdfs
-3. Data Analysis
-    - what type of analysis
-    - batch, online data processing
-    - analysis tools 
-        - hive, pig, MRp, Hbase
-        - Spark Sql, Core, streaming
-4. Export data to client DB
-5. BI (Reports)
+    1. Sources
+        - Static Sources
+            - Mysql dat abases
+        - Dynamic Sources
+            - live servers : linkedin,twitter,Fb 
+            - api's 
+    2. Data Ingestion(ETL)
+        - second layer
+        - once file system is ready
+        - tools 
+            - Sqoop, infermatica, data Stage -> for Static data Sources
+            - Fluem, Kafka -> Dynamic data Sources
+            - Aws Glue, Kinesis
+        - target : hive, Hbase, hdfs
+    3. Data Analysis
+        - what type of analysis
+        - batch, online data processing
+        - analysis tools 
+            - hive, pig, MRp, Hbase
+            - Spark Sql, Core, streaming
+    4. Export data to client DB
+    5. BI (Reports)
 
 
 - Platforms
     - CloudEra
     - HortonWorks
     - Aws EMR & Databricks
+
+
+- Dynamic Partitions
+    - using Hive - hive data warehouse
+    - all internal tables
+    - query performance
+    - 
+- Hive
+    - Partitions
+    - buckets
+    - transactions
+        - acid properties
+        -
+    - file formats
+    - indexing
+    - hive is not olap/oltp - only batch processing-Offline processing
+
+    - tableproperties - skip.header.line.count = 1
+    - hive GUI - hue
+    - hive cli - bline
+    - hive ACID trs
